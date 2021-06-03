@@ -1,0 +1,25 @@
+:root {
+    --tab-toolbar-navbar-overlap: 0px !important;
+    --tab-min-height: 20px !important;
+}
+
+:root #tabbrowser-tabs {
+    --tab-min-height: 20px !important;
+}
+
+@media (-moz-proton) {
+    .tab-background {
+        border-radius: 100px !important;
+        margin-block: 3px 3px !important;
+    }
+}
+
+.tab-close-button {
+    border-radius: 100px !important;
+    height: 20px !important;
+}
+
+#urlbar-container {
+    margin-inline: 0 !important;
+    padding-block: 0 !important;
+}
